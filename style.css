@@ -1,0 +1,59 @@
+* {
+        box-sizing: border-box;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+        background-color: rgb(147, 205, 255);
+
+        margin: 0px;
+        padding: 0px;
+        
+}
+
+form {
+        text-align: center;
+        overflow: hidden;
+
+        margin: 16px;
+}
+
+input {
+        height: 30px;
+        padding: 8px;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 8px;
+        background-color: white;
+}
+
+input[type = search] {
+        width: 85%;
+        max-width: 340px;
+}
+
+input[type = submit] {
+        padding-top: 6px;
+        padding-bottom: 16px;
+}
+
+.weather-card {
+        position: fixed;
+        inset: 0;
+        background-color: rgba(255, 0, 238, 0.533);
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        border-radius: 12px;
+        text-align: center;
+        padding: 30px;
+}
+
+h1 {
+        font-size: 4rem;
+        margin: 16px 0px;
+}
+
+h2 {
+        margin: 0;
+}
