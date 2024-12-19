@@ -4,8 +4,12 @@
 }
 
 body {
-        background-color: rgb(147, 205, 255);
+        background-image: linear-gradient(rgba(0, 136, 255, 1), rgba(0, 136, 255, 1), rgba(0, 136, 255, 1)), url("background.jpg");
+        background-size: 0vw, 212vh;
+        background-repeat:no-repeat;
+        background-position: center top;
 
+        /* (147, 205, 255, 0.5) */
         margin: 0px;
         padding: 0px;
         
