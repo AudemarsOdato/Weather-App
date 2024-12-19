@@ -4,12 +4,10 @@
 }
 
 body {
-        background-image: linear-gradient(rgba(0, 136, 255, 1), rgba(0, 136, 255, 1), rgba(0, 136, 255, 1)), url("background.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("background.jpg");
         background-size: 0vw, 212vh;
         background-repeat:no-repeat;
         background-position: center top;
-
-        /* (147, 205, 255, 0.5) */
         margin: 0px;
         padding: 0px;
         
@@ -44,13 +42,19 @@ input[type = submit] {
 .weather-card {
         position: fixed;
         inset: 0;
-        background-color: rgba(255, 0, 238, 0.533);
+        backdrop-filter: blur(14px) saturate(161%);
+        -webkit-backdrop-filter: blur(14px) saturate(161%);
+        background-color: rgba(242, 0, 255, 0.5);
         width: 250px;
         height: 250px;
         margin: auto;
         border-radius: 12px;
         text-align: center;
         padding: 30px;
+}
+
+h1, h2 {
+        color: rgb(255, 255, 255);
 }
 
 h1 {
