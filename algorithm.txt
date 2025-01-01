@@ -1,0 +1,2 @@
+Requirements:
+        Search city and give its temperature
