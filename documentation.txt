@@ -1,0 +1,24 @@
+Specification and Requirements
+- Weather card
+- Search a city and display its current temperature and current weather
+- learn fetch, async/await in javascript
+
+Research
+- Data destructuring in json formats
+- try catch and error handling for user input
+- Using async and await
+
+Algorithm
+Get user input
+>> Get city input value and store it to a variable
+>> display error if city input value does not exist
+On submit
+Get weather data
+>> fetch the api url using the api key and city input value by using the asyng and await
+>> convert to json format using the .json() function
+>> destructure and get the weather data, temperature, and city name
+<!-- add the null check on line 36 to prevent the error -->
+Display the infos
+>> Change the text content of the elements to the current data
+>> Clear the search text box
+>> Make the card visible
